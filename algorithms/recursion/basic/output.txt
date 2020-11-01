@@ -1,0 +1,3 @@
+Element 2 found
+Lower bound of 3 is 2
+Lower bound of 3 is 5
