@@ -137,6 +137,7 @@ int main() {
 	// cout << "clean 5 of bit at " << i << " :" << clearBit(n, i) << endl;
 
 	//Update bit
+	//INPUT: 5 3 1
 	int n, i, v;
 	cin >> n >> i >> v;
 
