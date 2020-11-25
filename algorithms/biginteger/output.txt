@@ -1,0 +1,4 @@
+Number of apples with X : 4
+Number of apples with Y : 6
+Number of apples with X : 9
+Number of apples with Y : 11

@@ -1,1 +1,8 @@
-17
+Is 5 is odd 1
+Is 4 is odd 0
+1st bit of 5 is 0
+1st bit of 7 is 1
+Set bit of 5 at 1st position 7
+Clear bit of 7 ast 1st position become 5:  5
+Update bit of 5 at position 1 is : 7
+Clear last 3 bits of 64 56
