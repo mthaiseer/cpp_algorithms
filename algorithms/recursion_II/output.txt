@@ -1,0 +1,2 @@
+Printing bubble rec
+1 2 6 12 20 
