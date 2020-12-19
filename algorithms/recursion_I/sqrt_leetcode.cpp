@@ -12,12 +12,6 @@ int mySqrt(int x, int start, int end, int ans) {
 
 	long long sq = (long long)mid * mid;
 
-	if (((long long)mid * (long long)mid) >= INT_MAX) {
-		end = mid;
-		return mySqrt(x, start, end, ans);
-
-	}
-
 	if (sq == x) {
 		return mid;
 	}
@@ -41,6 +35,19 @@ int mySqrt(int x) {
 
 }
 
+void print(int a ) {
+
+	int x = 50;
+	cout << a << endl;
+	int b = a / 2;
+	long long  c = (long long )b * b;
+	cout << c << endl;
+
+	if ( c > x ) {
+		cout << "I am ok" << endl;
+	}
+}
+
 
 int main() {
 
@@ -50,7 +57,8 @@ int main() {
 #endif
 
 
-	cout << mySqrt(2147395599) << endl;
+	//cout << mySqrt(2147395599) << endl;
+	print(2147395599);
 
 
 	return 0;
